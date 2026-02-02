@@ -1,4 +1,4 @@
-# Understandidng the linux fundamentals (Internal working).
+# Understanding the linux fundamentals (Internal working).
 ## Core components of linux.
   - 1. Kernel :-  Kernel is the main core part of the Linux os. kernel is the heart of the os , without kernel linux is dead. It connects hardware with the software.
           - what it does:
@@ -34,4 +34,5 @@
           - Executes it
       
   - 7. Init System :- It is a first program which is started by kernel.
-       
+## How Processes are created and managed in linux?
+      - A process in Linux is a running program that the kernel manages by giving it a process ID (PID), CPU time, memory, and other resources.
