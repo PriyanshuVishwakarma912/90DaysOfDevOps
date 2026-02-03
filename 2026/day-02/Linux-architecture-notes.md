@@ -25,14 +25,55 @@
           - /bin → basic commands
           - /var → logs
           - /dev → devices
-  - 5. Device Drivers :- Drivers are translators between kernel and hardware. It is needed because, Hardware understands signals, not commands.
-          - Devices like -> Keyboard , mouse ,printer.
-  - 6. Shell :- Shell is a translator between you and Linux.
+  - 5. Shell :- Shell is a translator between you and Linux.
           - What it does:
           - Reads your command
           - Finds correct program
           - Executes it
       
-  - 7. Init System :- It is a first program which is started by kernel.
+  - 6. Init System :- It is a first program which is started by kernel.
+    
 ## How Processes are created and managed in linux?
-      - A process in Linux is a running program that the kernel manages by giving it a process ID (PID), CPU time, memory, and other resources.
+  - A process in Linux is a running program that the kernel manages by giving it a process ID (PID), CPU time, memory, and other resources.
+      - In Linux everything you run is a process.
+      - A new process is created using the fork() system call:
+          - The parent process makes a copy of itself → child process.
+      - To run a different program, the child uses exec():
+- This replaces the child’s code with the new program.
+👉 Example: When you type ls in the terminal:
+- The shell (parent process) uses fork() to create a child.
+- The child uses exec() to load and run the ls program.
+
+🔹 Process Management
+- Each process has a PID (Process ID).
+- The kernel keeps track of all processes.
+- Processes can be in states like:
+- Running (using CPU),
+- Waiting (for input/output),
+- Stopped (paused),
+- Zombie (finished but not cleaned up).
+- The scheduler decides which process runs on the CPU.
+- Parent processes can monitor children using wait().
+
+🔹 In Short
+- fork() → creates a new process.
+- exec() → runs a new program inside it.
+- Kernel + scheduler → manage processes.
+- PID → unique ID for each process.
+  
+## What system does and why it matters in linux?
+  - systemd is the init system (the first program that runs when Linux boots).
+  - It's responsible for:
+      - Starting services (like networking, logging, graphical interface).
+      - Managing processes (keeping them running, restarting if they fail).
+      - Handling dependencies (making sure that services start in the right order).
+      - Logging (collecting system messages for troubleshooting).
+  - why it matters:-
+      - Boot speed
+      - Reliability
+      - Consistency
+      - Control
+      - Monitoring
+
+
+      
