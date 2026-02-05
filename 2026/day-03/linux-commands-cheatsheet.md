@@ -1,10 +1,10 @@
 # Cheatsheet of linux commands
 ### Process Management commands :-
-      - ps : Show all current running processes.
-      - top : display realtime process information
-      - htop : Interactive process viewer
-      - pgrep : Search PID by name
-      - kill : Kills process with PID
+ - ps : Show all current running processes.
+ - top : display realtime process information
+ - htop : Interactive process viewer
+ - pgrep : Search PID by name
+ - kill : Kills process with PID
 
 ### File System commands :-
    - pwd : Shows the present working directory or your location
@@ -20,5 +20,4 @@
    - curl
    - ip addr show
    - netstat -tulnp
-      
       
