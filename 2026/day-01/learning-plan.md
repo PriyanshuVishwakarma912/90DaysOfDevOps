@@ -1,18 +1,18 @@
-- About me ( current level).
-        Currently I'm a college student , persuing B.Tech in CSE right now in the 3rd year (6th semester).
-- Allocate a weekly time budget.
-        - I can give daily 2-3 hours per day which is equivalent to 20-21 hours per week.
-- Define 3 clear goals for the next 90 days.
-       - (a) Watch and attend all the live classes of DevOps zero to hero.
-       - (b) Do hands on to gain practical knowledge.
-       - (c) Practise what you learn daily and also help others in the community.
-- Define 3 core DevOps skills you want to build.
-       - Linux & shell scripting.
-       - Git & github.
-        - All the cloud concepts , Automation & CI/CD.
-- What is your understanding of DevOps and Cloud Engineering?
-        - According to me DevOps and Cloud Engineering is a high and in demand skill where the end user demands solutions fast , for that a software developer write code to build a software after that the code transfers to the operations team and in that operations team there are many hierarchy's of roles and their works that consumes a lot of time to serve that application to the end user vary late ,at that stage DevOps and Cloud Engineers came into the picture that helps the developer and operations team to achieve that goal very fast without any delay and automate the repetative tasks.
-- Why you are starting learning DevOps & Cloud?
-       - Learning Devops and cloud is very helpful for me because i can connect it with very well ( Specialy when your mentor is very ossum and helpful to their learners) and I also want to get a internship and a high paying job in that particular field.
-  - Where do you want to reach?
+## About me ( current level).
+  - Currently I'm a college student , persuing B.Tech in CSE right now in the 3rd year (6th semester).
+## Allocate a weekly time budget.
+  - I can give daily 2-3 hours per day which is equivalent to 20-21 hours per week.
+## Define 3 clear goals for the next 90 days.
+  - (a) Watch and attend all the live classes of DevOps zero to hero.
+   - (b) Do hands on to gain practical knowledge.
+   - (c) Practise what you learn daily and also help others in the community.
+## Define 3 core DevOps skills you want to build.
+  - Linux & shell scripting.
+   - Git & github.
+    - All the cloud concepts , Automation & CI/CD.
+## What is your understanding of DevOps and Cloud Engineering?
+   - According to me DevOps and Cloud Engineering is a high and in demand skill where the end user demands solutions fast , for that a software developer write code to build a software after that the code transfers to the operations team and in that operations team there are many hierarchy's of roles and their works that consumes a lot of time to serve that application to the end user vary late ,at that stage DevOps and Cloud Engineers came into the picture that helps the developer and operations team to achieve that goal very fast without any delay and automate the repetative tasks.
+## Why you are starting learning DevOps & Cloud?
+  - Learning Devops and cloud is very helpful for me because i can connect it with very well ( Specialy when your mentor is very ossum and helpful to their learners) and I also want to get a internship and a high paying job in that particular field.
+  ## Where do you want to reach?
         - I want to get a high and well paying job in big tech companies like startups , MNCs.
