@@ -8,5 +8,8 @@
   - (a): **Metrices**: Metrice tells ' what ' is happend in your application/server.
     - Like CPU is at 80% usage, 500 requests/sec , Memory increased by 10%.
     - Tools Used: Prometheus, Datadog, CloudWatch
-  - (b): **Logs**: Logs tells you why it is happened in your application/server.
-    -   
+  - (b): Logs: Logs tells you why it is happened in your application/server.
+    - Like GPUs are melting or related to that.
+    -  Tools used: Loki, ELK Stack, Fluentd
+  - (c): Traces: Traces tells where it happens in your application or server.
+    -  Tools used: OpenTelemetry, Jaeger, Zipkin
